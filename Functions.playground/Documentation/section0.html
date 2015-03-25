@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+    <body>
+		<h1>Functions</h1>
+		<p>
+		A function is a chunk of code that can perform a task. 
+		A function can return a value or another function or none at all. 
+		A function can take a set of input parameters or none. 
+		The function acts on the parameters, executes the task and passes on the control to the line next to where it got called from.
+		</p>
+		<p>
+		Before getting into the details of return types and input parameters, 
+		let&#39;s understand the basics of function calls in a program. 
+		Below this paragraph in blue color is a simple representation of code flow, 
+		when a call is made to a function. 
+		The program executes through line 5 to 7, then a call is made to the function on line 8. 
+		Now the function gets executed and returns the control to line 9 and continues execution.
+		</p>
+		<p>
+		<i>
+		{<br/>
+
+		...<br/>
+		Line 5<br/>
+
+		Line 6<br/>
+
+		Line 7<br/>
+
+		Line 8 - call function doAllTasks<br/>
+
+		Line 9<br/>
+
+		...<br/>
+		}<br/>
+
+		func doAllTasks()<br/>
+
+		{<br/>
+
+		//Chunk of code to perform all tasks<br/>
+
+		} <br/>
+		</i>	
+		</p>
+		
+		<h1>Defining and Calling Functions:</h1>
+		
+		<p>
+		A function&#39;s definition provides the following details.
+		</p>
+		<p>
+		<ul>
+		<li>Function name - that is used to call the function</li>
+		<li>Parameters - input values that the function accepts</li>
+		<li>Return Type - the output that the function returns</li>
+		</ul>
+		</p>
+
+		<p>
+		<i>
+		func functionName (var1:Type, var2:Type2...) -> ReturnType
+		<br/>
+		{<br/>
+		 return (ReturnType value)<br/>
+		}<br/>
+		</i>
+		</p>
+		
+		<p>
+		Now when you have to call the above function, you make the call as shown below. 
+		The returnedValue captures the value returned by the function &#39;functionName&#39;.</p>
+
+		<p><i>var returnedValue = functionName(Input Parameters) </i></p>
+
+		<p>
+		Let&#39;s translate the above theory into an example in the next section. 
+		We&#39;ll see different types of functions that have input parameters and that don&#39;t have any. 
+		The functions that do return a value and that don&#39;t return any.
+		</p>
+		<br/>
+
+		<h1>Function with one input parameter and no return</h1>
+		<p>
+		Let&#39;s go ahead and create a function that takes an integer and prints if it is an odd or even number. 
+		Notice that the function does not return any value.
+		</p>
+    </body>
+</html>

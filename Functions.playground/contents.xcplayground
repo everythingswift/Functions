@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <playground version='3.0' sdk='iphonesimulator'>
-    <sections>
+   <sections>
+    	<documentation relative-path='section0.html'/>
         <code source-file-name='section-1.swift'/>
+        <documentation relative-path='section1.html'/>
+        <code source-file-name='section-2.swift'/>
+    	<documentation relative-path='section2.html'/>
+        <code source-file-name='section-3.swift'/>
+    	<documentation relative-path='section3.html'/>
+        <code source-file-name='section-4.swift'/>
+    	<documentation relative-path='section4.html'/>
+        <code source-file-name='section-5.swift'/>
+    	<documentation relative-path='section5.html'/>
+        <code source-file-name='section-6.swift'/>
+    	<documentation relative-path='section6.html'/>
+        <code source-file-name='section-7.swift'/>
+    	<documentation relative-path='section7.html'/>
+        <code source-file-name='section-8.swift'/>
+    	<documentation relative-path='section8.html'/>
+        <code source-file-name='section-9.swift'/>
+    	<documentation relative-path='section9.html'/>
+        <code source-file-name='section-10.swift'/>
+        <documentation relative-path='section10.html'/>
+        <code source-file-name='section-11.swift'/>
+    	<documentation relative-path='section11.html'/>
+        <code source-file-name='section-12.swift'/>
+    	<documentation relative-path='section12.html'/>
+        <code source-file-name='section-13.swift'/>
+    	<documentation relative-path='section13.html'/>
+        <code source-file-name='section-14.swift'/>
+
     </sections>
-    <timeline fileName='timeline.xctimeline'/>
+	<timeline fileName='timeline.xctimeline'/>
 </playground>
