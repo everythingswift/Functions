@@ -30,5 +30,5 @@ if let returnArrays = getEvenAndOdd2(firstTenNumbers2)
 }
 else
 {
-    println("The else clause of optional binding")
+    print("The else clause of optional binding")
 }
